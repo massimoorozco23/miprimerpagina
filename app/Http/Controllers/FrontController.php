@@ -45,6 +45,12 @@ class FrontController extends Controller
             ->with('campaings', $campaings)
             ->with('comments', $comments);
     }
+public function examen()
+{
+    return view('examen');
+}
+
+
 
     public function jobs()
     {
