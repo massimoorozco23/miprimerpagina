@@ -142,6 +142,15 @@ Route::get('/', [
     'uses' => 'FrontController@index',
     'as' => 'index',
 ]);
+route::get('/massimo_12vo',[
+
+    'uses' => 'FrontController@examen,'
+    'as'=> 'examen',
+
+]);
+
+
+
 
 Route::get('/vacantes', [
     'uses' => 'FrontController@jobs',
